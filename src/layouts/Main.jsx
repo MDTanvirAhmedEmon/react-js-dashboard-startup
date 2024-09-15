@@ -14,6 +14,7 @@ const Main = () => {
     return (
         <div>
             <Layout>
+                
                 <Sidebar collapsed={collapsed} ></Sidebar>
                 <Layout>
                     <MainHeader setCollapsed={setCollapsed} collapsed={collapsed}></MainHeader>
