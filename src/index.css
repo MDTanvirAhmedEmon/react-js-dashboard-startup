@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* sider  */
+:where(.css-dev-only-do-not-override-qnu6hi).ant-layout .ant-layout-sider {
+    background: black !important;
+}
+:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu {
+
+    background: black !important;
+}
+:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+    background-color: #9b0d0d !important;
+}
