@@ -14,9 +14,9 @@ const Main = () => {
     return (
         <div>
             <Layout>
-                
+
                 <Sidebar collapsed={collapsed} ></Sidebar>
-                <Layout>
+                <Layout className={`${collapsed ? "ml-[80px]" : "ml-[250px]"} `}>
                     <MainHeader setCollapsed={setCollapsed} collapsed={collapsed}></MainHeader>
                     <Content
                         style={{}}

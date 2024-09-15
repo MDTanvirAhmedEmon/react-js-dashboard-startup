@@ -2,7 +2,7 @@
 
 const Analysis = () => {
     return (
-        <div>
+        <div className=" mb-[1000px]">
             Ami Analysis
         </div>
     );

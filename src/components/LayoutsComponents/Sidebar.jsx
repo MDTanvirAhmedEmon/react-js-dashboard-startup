@@ -12,7 +12,7 @@ const { Sider } = Layout;
 const Sidebar = ({ collapsed }) => {
 
     return (
-        <div className=' h-[100vh]'>
+        <div className=' h-[100vh] fixed top-0 left-0 bottom-0'>
             <Sider className='h-[100vh] w-[300px]' width={250} trigger={null} collapsible collapsed={collapsed}>
                 <div className={` ${collapsed ? 'text-lg' : 'text-3xl'}  font-bold my-10 text-white text-center`}>Logo</div>
                 <Menu
