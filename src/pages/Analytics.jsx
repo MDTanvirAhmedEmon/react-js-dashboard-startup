@@ -1,11 +1,11 @@
 
 
-const Analysis = () => {
+const Analytics = () => {
     return (
         <div className=" mb-[1000px]">
-            Ami Analysis
+            Ami Analytics
         </div>
     );
 };
 
-export default Analysis;
+export default Analytics;
