@@ -4,22 +4,28 @@
 
 
 /* sider  */
-:where(.css-dev-only-do-not-override-qnu6hi).ant-layout .ant-layout-sider {
+.ant-layout-sider {
     background: black !important;
 }
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu {
 
+.ant-menu-dark, .ant-menu-dark .ant-menu {
     background: black !important;
 }
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu .ant-menu-item-selected {
-    background-color: #9b0d0d !important;
+
+.ant-menu-dark .ant-menu-item-selected {
+    background-color: #cb0909 !important;
 }
-:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark.ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu.ant-menu-inline .ant-menu-item {
-    margin-bottom: 20px !important;
-}:where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark .ant-menu-item, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu .ant-menu-item, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-qnu6hi).ant-menu-dark>.ant-menu .ant-menu-submenu-title {
+
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-submenu-title {
     margin-bottom: 20px !important;
 }
+
 .ant-layout-sider-collapsed svg.w-5.h-5.ant-menu-item-icon {
     margin-left: -2px;
     margin-bottom: -4px;
+}
+
+
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+    background: black !important;
 }
