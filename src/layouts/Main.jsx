@@ -12,10 +12,10 @@ const Main = () => {
 
 
     return (
-        <div className=" !bg-black" style={{ backgroundColor: "black" }}>
-            <Layout className=" !bg-black" style={{ backgroundColor: "black" }}>
+        <div className="">
+            <Layout className="">
 
-                <Sidebar collapsed={collapsed} ></Sidebar>
+                <Sidebar className=' bg-[#282826]' collapsed={collapsed} ></Sidebar>
                 <Layout
                     style={{
                         marginLeft: collapsed ? 80 : 250,

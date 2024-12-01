@@ -2,30 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* sider  */
-.ant-layout-sider {
-    background: black !important;
-}
-
-.ant-menu-dark, .ant-menu-dark .ant-menu {
-    background: black !important;
-}
-
-.ant-menu-dark .ant-menu-item-selected {
-    background-color: #cb0909 !important;
-}
-
-.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-submenu-title {
-    margin-bottom: 20px !important;
-}
-
-.ant-layout-sider-collapsed svg.w-5.h-5.ant-menu-item-icon {
-    margin-left: -2px;
-    margin-bottom: -4px;
-}
-
-
-.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline {
-    background: black !important;
-}

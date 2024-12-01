@@ -5,10 +5,14 @@ import {
 } from "react-router-dom";
 import './index.css'
 import router from './routes/routes.jsx';
+import { ConfigProvider } from 'antd';
+import { mainTheme } from './theme/index.js';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <ConfigProvider theme={mainTheme}>
+      <RouterProvider router={router} />
+    </ConfigProvider>
   </StrictMode>,
 )
