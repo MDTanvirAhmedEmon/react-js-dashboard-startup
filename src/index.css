@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* sider  */
+.ant-layout-sider {
+    background: #1d1d1b !important;
+}
+/* 
+.ant-menu-dark, .ant-menu-dark .ant-menu {
+    background: black !important;
+} */

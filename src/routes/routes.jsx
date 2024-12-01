@@ -1,16 +1,16 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Main from '../layouts/Main';
 import Analytics from '../pages/Analytics';
 import Competition from '../pages/Competition';
 import Moderation from '../pages/Moderation';
 import PaymentManagement from '../pages/PaymentManagement';
 import UserManagement from '../pages/UserManagement';
+import MainLayout from '../layouts/MainLayout';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Main />,
+    element: <MainLayout />,
     children: [
       {
         path: "/",

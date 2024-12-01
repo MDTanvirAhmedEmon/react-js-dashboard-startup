@@ -16,7 +16,7 @@ const MainHeader = ({ setCollapsed, collapsed }) => {
                     background: colorBgContainer,
                 }}
             >
-                <div className=' flex justify-between pr-4 bg-[#282826]'>
+                <div className=' flex justify-between pr-4 bg-[#1d1d1b]'>
                     <Button
                         type="text"
                         icon={collapsed ? <RxHamburgerMenu className=' text-white -ml-8 w-8 h-8 ' /> : <RxHamburgerMenu className=' text-white -ml-8 w-8 h-8 ' />}
